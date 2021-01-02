@@ -16,3 +16,8 @@ h1, h3
 {
     color: #3f72af;
 }
+
+img:hover 
+{
+    background-color: #dbe2ef;  
+}
