@@ -1,23 +1,33 @@
 body
 {
-    background-color: #f9f7f7; 
-    color           :   #112d4e;
+    background-color: #222831; 
+    color           :   #eeeeee;
 }
 hr
 {
     border-style: none;
     border-top-style: dotted;
-    border-color: #dbe2ef;
+    border-color: #a2b59f;
     border-width: 6px;    
     width: 6%; 
 }
 
-h1, h3
+h1
 {
-    color: #3f72af;
+    color: #00adb5;
+}
+H3
+{
+    color: #00adb5;
 }
 
 img:hover 
 {
-    background-color: #dbe2ef;  
+    background-color: #a2b59f;  
+}
+
+.info
+{
+    background-color: #393e46;
+    
 }
