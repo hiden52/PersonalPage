@@ -1,14 +1,43 @@
 body
 {
-    background-color: white;
+    background-color: #222831;
+    margin: 0;
+}
+div
+{
     margin: 0;
 }
 .top_div
 {
     background-color: #393e46;
     color: #eeeeee;
+    margin: 0;
+}
+.top_div *
+{
+    
+    padding-left: 5px;
 }
 .top_div h1
 {
+    color: #00adb5;
     margin-top: 0;
+    padding-top : 10px;
+}
+
+.middle_div,
+.bottom_div
+{
+    width: 200px;
+    height: 200px;
+}
+
+.middle_div
+{
+    background-color: #eeeeee;
+}
+
+.bottom_div
+{
+    background-color: #00adb5;
 }
