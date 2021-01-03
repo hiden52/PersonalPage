@@ -46,8 +46,6 @@ div
 .middle_div,
 .bottom_div
 {
-    width: 200px;
-    height: 200px;
 }
 .top_logo
 {
@@ -79,10 +77,8 @@ div
 
 .middle_div
 {
-    background-color: #eeeeee;
 }
 
 .bottom_div
 {
-    background-color: #00adb5;
 }
