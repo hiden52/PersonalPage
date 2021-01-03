@@ -9,7 +9,10 @@
 body
 {
     background-color: #222831;
+    font-family: 'Josefin Sans', sans-serif;
     margin: 0;
+    margin-bottom: 0px;
+    font-family: Verdana ,sans-serif;
 }
 div
 {
@@ -20,16 +23,23 @@ div
     background-color: #393e46;
     color: #eeeeee;
     margin: 0;
+    position: relative;
+    padding-top: 50px;
 }
 .top_div *
 {
     
     padding-left: 5px;
+    position: relative;
+    text-align: center;
 }
 .top_div h1
 {
     color: #00adb5;
+    font-family: 'Wallpoet', cursive;
+    font-size: 70px;
     margin-top: 0;
+    margin-bottom: 10px;
     padding-top : 10px;
 }
 
@@ -38,6 +48,33 @@ div
 {
     width: 200px;
     height: 200px;
+}
+.top_logo
+{
+    position: absolute;
+    right: 10%;
+    top: 35%;
+    width: 30%;
+
+}
+.copy_letter
+{
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.7);
+    bottom: 15%;
+    font-size: 3vw;
+    left: 37%;
+    border: solid 5px;
+    border-radius: 3px;
+    border-color: rgb(34, 40, 49, 0.2);
+    padding: 5px;
+    z-index: 1;
+    width: 30%;
+}
+.top_city
+{
+    width: 100%;
+    padding-left: 0px;
 }
 
 .middle_div
