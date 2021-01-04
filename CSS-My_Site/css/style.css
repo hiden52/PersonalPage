@@ -87,18 +87,47 @@ div
 .middle_div
 {
     height: 500px;
+    text-align: center;
+}
+.middle_div .article
+{
+    text-align: left;
+    margin-left: 50px;
 }
 
 .bottom_div
 {
     background-color: #393e46;
     height: 500px;
+    text-align: center;
+}
+.bottom_div .article
+{
+    text-align: right;
+    margin-right: 50px;
 }
 
 .article
 {
     display: inline-block;
-    text-align: center;
-    position: relative;
-    top: 150px;
+    
+    width: 65%;
+    height: auto;
 }
+.img_article
+{
+    display: inline-flexbox;
+    width: 20%;
+    height: auto;
+    max-height: 300px;
+    max-width: 300px;
+    margin: 50px 0 0;
+}
+
+.boxAtc
+{
+    padding: 5% 0 5%;
+}
+/*
+    ToDo: article을 수직 중간정렬
+*/
